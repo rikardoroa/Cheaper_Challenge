@@ -18,6 +18,9 @@
 
 * 3 -> crear una carpeta datos dentro del sistema de archivos de databricks, debe tener la siguiente ruta **_/FileStore/tables/datos_**
 
+* 4 -> Al crear la carpeta se debe subir el archivo **_urls.json_** a la siguiente ruta **_/FileStore/tables/datos/_**
+
+* 5 -> se debe crear un archivo **_key.json_** con las credenciales para subir la informacion a los buckets, este archivo json se genera directamente en google y tambien  se  debe copiar en la ruta **_/FileStore/tables/datos/_**, no comparto el mio por seguridad.
 
      ## Nota
      * una vez que el cluster quede deshabilitado en la version community se debe crear otro cluster con las librerias mencionadas anteriormente
