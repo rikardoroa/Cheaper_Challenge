@@ -6,6 +6,8 @@
 
 * 1 -> Tener cuenta o crear una cuenta en Databricks, enlace: https://community.cloud.databricks.com/login.html
 
+* 2 -> usar la version 2.1 del script que se encuentra en el repositorio.
+
 ## Ejecución del Script
 
 * 1 -> para ejecutar el script se debe crear un nuevo notebook en databricks con el archivo fuente que se encuentra en este repo 
